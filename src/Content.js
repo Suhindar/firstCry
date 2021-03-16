@@ -19,7 +19,7 @@ function Content() {
                 <Row>
                     <Col xs={6} md={4}>
                         <Image src="/image-1.webp" thumbnail/>
-                        <p class="text-block">Holi Special|6M-12+Y</p>
+                        
                     </Col>
                     <Col xs={6} md={4}>
                         <Image src="/image-2.webp" thumbnail/>

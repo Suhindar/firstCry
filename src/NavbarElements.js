@@ -10,12 +10,13 @@ function NavbarElements() {
         <div className="App">
             <div>
               
-                <Navbar className="nav-style">
+                <Navbar class="nav-style">
                    <img class="logo-pos"src="fc_logo.png"></img>&nbsp;
                       <Nav className="mr-sm-2" >
                           <Form inline>
                           <FormControl type="text" placeholder="Search for a product" className="mr-sm-4"/>
-                          <img class="search-button" data-icon="/search-icon.png"></img>
+                          <Button variant="outline-success">Search</Button>
+                          
                         </Form>
                         
                         
@@ -32,9 +33,21 @@ function NavbarElements() {
                         <Nav.Link href="#">Cart</Nav.Link>&nbsp; 
                         </Nav> 
 </Navbar>
-<Navbar className="navbar">
-                        <Nav>
-                            <Nav.Link href="#home">Home</Nav.Link>
+<Navbar bg="primary" variant="dark">
+                        <Nav >
+                            <Nav.Link href="#home">ALL CATEGORIES</Nav.Link>
+                            <Nav.Link href="#home">BOY FASHION</Nav.Link>
+                            <Nav.Link href="#home">GIRL FASHION</Nav.Link>
+                            <Nav.Link href="#home">FOOTWEAR</Nav.Link>
+                            <Nav.Link href="#home">TOYS</Nav.Link>
+                            <Nav.Link href="#home">DIAPERING</Nav.Link>
+                            <Nav.Link href="#home">GEAR</Nav.Link>
+                            <Nav.Link href="#home">FEEDING</Nav.Link>
+                            <Nav.Link href="#home">BATH&SKIN</Nav.Link>
+                            <Nav.Link href="#home">NURSERY</Nav.Link>
+                            <Nav.Link href="#home">MOMS</Nav.Link>
+                            <Nav.Link href="#home">HEALTH&SAFETY</Nav.Link>
+                            <Nav.Link href="#home">BOUTIQUES</Nav.Link>
                         </Nav>
                 </Navbar>
                 
