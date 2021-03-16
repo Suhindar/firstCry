@@ -2,33 +2,33 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search-button {
+  color: #ff7043;
+  font-size: 16px;
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  cursor: pointer;
 }
-
+.headSearchBox {
+  width: 430px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background-color: #fff;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo-pos{
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
+
+@keyframes suhi-logo-spin{
   from {
     transform: rotate(0deg);
   }
@@ -162,4 +162,30 @@ bottom: 16.26%;
 border: 2px solid #000000;
 
 }
+.navbar
+{
+  color:"yellow"; 
+}
+.logo-size
+{
+  width: 20px;
+  height: 17px;
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: white;
+  color:black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nav-style{
+  
+  font-family: Roboto-Regular;
+    font-size: 12px!important;
+    color: #616161;
+    line-height: 17px;  
+  
+    
 }

@@ -4,7 +4,7 @@ import NavbarElements from './NavbarElements';
 function App() {
   return (
     <div className='App'>
-      <NavbarElements />
+      <NavbarElements/>
     </div>
   )
 }
